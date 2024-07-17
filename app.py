@@ -3,13 +3,15 @@ from connector import configure
 from models.user import User
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() # loads the enviroment variables
 
 def create_app():
+    """Starts the flask app and initializes the connection with db"""
     app = Flask(__name__)
     db = configure(app)
     
     with app.app_context():
+        """Creates all the neccesary tables"""
         db.create_all()
     
     return app
