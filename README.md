@@ -72,7 +72,7 @@ Usa `app.app_context()` para crear las tablas con `db.create_all()`.
 
 Define una clase `User` que herede de `db.Model`.
 
-- Añade columnas: `id`, `username`, `email`, `password_hash`.
+- Añade columnas: `id`, `username`, `email`, `password`.
 
 ### Añadir un Método de Guardado al Modelo
 
