@@ -9,7 +9,7 @@ def configure(app):
     """Initialize the db connection to URI using sqlalchemy"""
 
     db_password = os.getenv('DB_PASSCODE') # get the pasword from enviroment variable
-    URI = f"postgresql://postgres:{db_password}@localhost:5000/practiceDB"
+    URI = f"postgresql://postgres:{db_password}@localhost:5000/practiceDB" # utilizamos postgres
     app.config['SQLALCHEMY_DATABASE_URI'] = URI # sets the URI
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # sets changes tracking to off
     create_db(URI) # creates the database
