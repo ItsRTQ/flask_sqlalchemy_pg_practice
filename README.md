@@ -2,6 +2,20 @@
 
 ## Instrucciones Paso a Paso
 
+### Crear y Activar el Entorno Virtual e Instalar Dependencias
+
+## Crea y activa tu entorno virtual (asegúrate de estar en el directorio del proyecto, donde se encuentra el requierments.txt):
+
+   ```bash
+   # Crear el entorno virtual
+   python -m venv venv
+
+   # En sistemas Unix/Mac
+   source venv/bin/activate
+
+   # En Windows
+   venv\Scripts\activate
+
 ### Crear la Aplicación Flask
 
 Inicializa tu aplicación Flask.
