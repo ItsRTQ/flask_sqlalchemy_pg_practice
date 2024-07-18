@@ -1,4 +1,4 @@
-# Flask SQLAlchemy Setup Guide(Whats going on)
+# Guía de Configuración de Flask-SQLAlchemy (Qué está pasando en el codigo)
 
 ## Instrucciones Paso a Paso
 
