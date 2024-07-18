@@ -10,9 +10,9 @@
    # Crear el entorno virtual
    python -m venv venv
 
+   # ====Activa tu entorno vitual====
    # En sistemas Unix/Mac
    source venv/bin/activate
-
    # En Windows
    venv\Scripts\activate
    ```
