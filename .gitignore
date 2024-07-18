@@ -1,2 +1,3 @@
 .env
 sqlalchemyvenv
+__pycache__
