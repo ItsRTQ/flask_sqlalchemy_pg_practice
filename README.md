@@ -15,6 +15,7 @@
 
    # En Windows
    venv\Scripts\activate
+   ```
 
 ### Crear la Aplicación Flask
 
